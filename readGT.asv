@@ -1,0 +1,5 @@
+clc
+clear all;
+GT = load('gt_d_clutter.mat');
+loc = GT.gTruth.LabelData;
+loc(2:,1:)

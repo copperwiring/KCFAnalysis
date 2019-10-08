@@ -1,3 +1,5 @@
+%% Reading the predicted labels from results generated from the tracker
+
 count=001;
 fid = fopen('clutter_results');
 tline = fgetl(fid);
